@@ -18,7 +18,7 @@ function pengalaman() {
     if (bulanHariIni < bulanPengalaman || (bulanHariIni === bulanPengalaman && hariIni < hariPengalaman)) {
         pengalaman--;
     }
-    return `${pengalaman} years`;
+    return `${pengalaman} tahun`;
 }
 
 let classSpan = document.querySelectorAll(".pengalaman");
